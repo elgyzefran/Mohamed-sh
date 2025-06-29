@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+  *{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+  }
+  a{
+    color: black;
+  }
+  body{
+    background-color: #e8e8e8;
+    height: 100vh;
+    width: 100vw;
+    animation: fade 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    font-family: "Cairo", sans-serif; 
+  font-optical-sizing: auto;
+  font-weight: <weight>; 
+  font-style: normal;
+  font-variation-settings: "slnt" 0; 
+  }
+  @keyframes fade{
+    to{
+      opacity: 1;
+    }
+  }
+  header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    position: fixed;
+  }
+  header img{
+    padding: 10px;
+    width: 50px;
+  }
+  header h3{
+    margin: auto;
+  }
+  .clear{
+    width: 100%;
+    height: 75px;
+    background-color: transparent;
+  }
+  main{
+    margin-top: 30px;
+    text-align: center;
+  }
+  .heed{
+    margin: 30px 0px;
+    padding: 0px;
+    width: 80%;
+  }
+  section div p{
+    direction: rtl;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+  }
+  section div{
+    margin: 30px 10px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px 0px #000;
+    direction: ltr;
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  section div img{
+    width: 90px;
+    border-radius: 50%;
+  }
+  .user{
+    display: block;
+    direction: ltr;
+  }
+  footer{
+    direction: ltr;
+    line-height: 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  footer img{
+    position: relative;
+    left: 10px;
+    top: 12px;
+    width: 30px;
+  }
